@@ -4,14 +4,14 @@
 
 /* You can completely change the color scheme! Go to https://uigradients.com for gradient inspiration!! */
 body {
-  background-color: #fd746c;
-  background: linear-gradient(45deg,  #fd746c, #ff9068);
+  background-image: url("https://ak0.picdn.net/shutterstock/videos/14162870/thumb/1.jpg");
+  background-size: cover;
   width: 80%;
   margin: auto;
 }
 
 h1 {
-  color: #2B2A2A;
+  color: #FFFFFF;
   text-align: center;
   padding: 15px;
   font-size: 200%;
@@ -19,7 +19,7 @@ h1 {
 
 form {
   margin-bottom: 20px;
-  background-color: #FFDCDA;
+  background-color: #000000;
   margin: auto;
   display: flex;
   padding: 10px;
@@ -29,7 +29,7 @@ form {
 }
 
 p {
-  color: #2B2A2A;
+  color: #FFFFFF;
   width: 55%;
   padding-right: 15px;
 }
@@ -53,12 +53,12 @@ p {
 }
 
 #input-field::placeholder {
-  color: #CFCECF;
+  color: ##b7babc;
 }
 
 .submit-btn {
-  background-color: #fd746c;
-  color: #fff;
+  background-color: #e0ffff;
+  color: #000;
   transition: all 0.5s;
   text-transform: uppercase;
   cursor: pointer;
@@ -73,10 +73,10 @@ p {
 /* The code below sets the data up in a 2x2 square, like the hedgehog page */
 #data-container {
   margin: auto;
-  width: 700px;
+  width: 520px;
   display: grid;
-  grid-template-columns: 350px 350px;
-  grid-template-rows: 350px 350px;
+  grid-template-columns: 260px 260px;
+  grid-template-rows: 400px 400px;
   grid-template-areas: "image1 image2" "image3 image4";
   background-color: #EDF4F1;
   padding: 10px;
@@ -84,8 +84,8 @@ p {
   margin-bottom: 40px;
 }
 #image1, #image2, #image3, #image4 {
-  width: 350px;
-  height: 350px;
+  width: 260px;
+  height: 400px;
   object-fit: cover;
 }
 #image1 {
